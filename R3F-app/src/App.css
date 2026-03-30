@@ -1,14 +1,3 @@
-.canvas-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #3a31e3;
-}
-
-/* Reset simple */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,7 +9,15 @@ body {
   color: white;
 }
 
-/* Container global (Html fullscreen) */
+.canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Container global */
 
 .title-block {
   position: absolute;
@@ -42,7 +39,7 @@ body {
 
 .status-block {
   position: absolute;
-  top: 110px;
+  top: 40px;
   left: 40px;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(6px);
